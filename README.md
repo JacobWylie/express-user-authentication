@@ -7,3 +7,13 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <p><a href="http://mongoosejs.com/index.html">Mongoose Web Site</a></p>
 <p><a href="http://mongoosejs.com/docs/guide.html">Mongoose Schemas</a></p>
 <p><a href="http://mongoosejs.com/docs/guide.html#methods">Mongoose Methods</a></p>
+
+<h5>Mongo Shell Cheatsheet</h5>
+<ul>
+	<li>show dbs — display the databases</li>
+	<li>use bookworm — specify the database you're going to work with</li>
+	<li>show collections — shows the document collections for the selected database</li>
+	<li>db.users.find() — display all the documents in the users collection</li>
+	<li>db.users.find().pretty() — nicer format for output documents within the shell</li>
+	<li>db.users.drop() — remove the users collection from the current database</li>
+</ul>
