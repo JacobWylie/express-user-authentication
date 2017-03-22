@@ -6,7 +6,6 @@
   "private": true,
   "scripts": {
     "start": "node ./app",
-    "server": "live-server --port=1234 --open=public --entry-file=app.js"
   },
   "dependencies": {
     "body-parser": "^1.13.3",

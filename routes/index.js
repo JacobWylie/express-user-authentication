@@ -3,7 +3,7 @@ const router = express.Router();
 
 // GET /register
 router.get('/register', (req, res, next) => {
-	return res.send('Register today!');
+	return res.render('register', { title: 'Sign Up' });
 });
 
 // POST /register
