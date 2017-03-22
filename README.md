@@ -4,3 +4,4 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <h4>Docs</h4>
 <p><a href="http://expressjs.com/en/starter/basic-routing.html">Basic Routing in Express</a></p>
 <p><a href="https://nodemon.io/">Nodemon</a></p>
+<p><a href="http://mongoosejs.com/index.html">Mongoose Web Site</a></p>
