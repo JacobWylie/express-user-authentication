@@ -4,12 +4,7 @@ const User = require('../models/user');
 const mid = require('../middleware');
 
 // GET /profile
-router.get('/profile', (req, res, next) => {
-	if (! req.session.userId) {
-		let err = new Error('You are not logged in!');
-		err.status = 403;
-		return next(err);
-	}
+router.get('/profile', mid.requiresLogin, (req, res, next) => {
 	User.findById(req.session.userId)
 		.exec((error, user) => {
 			if (error) {

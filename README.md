@@ -15,6 +15,7 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <p><a href="http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/">How to Implement Password Reset in Node.js</a></p>
 <p><a href="https://pugjs.org/api/getting-started.html">Pug (Jade) Conditionals</a></p>
 <p><a href="https://expressjs.com/en/guide/using-middleware.html">Express Middleware</a></p>
+<p><a href="https://github.com/jdesboeufs/connect-mongo">connect-mongo: A MongoDB session store for Connect and Express</a></p>
 
 <h4>Mongo Shell Cheatsheet</h4>
 <ul>
