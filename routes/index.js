@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
+const mid = require('../middleware');
 
 // GET /profile
 router.get('/profile', (req, res, next) => {
@@ -34,7 +35,7 @@ router.get('/logout', function(req, res, next) {
 });
 
 // GET /login
-router.get('/login', (req, res, next) => {
+router.get('/login', mid.loggedOut, (req, res, next) => {
 	return res.render('login', {title: 'Log in'})
 });
 
@@ -59,7 +60,7 @@ router.post('/login', (req, res, next) => {
 });
 
 // GET /register
-router.get('/register', (req, res, next) => {
+router.get('/register', mid.loggedOut, (req, res, next) => {
 	return res.render('register', { title: 'Sign Up' });
 });
 
