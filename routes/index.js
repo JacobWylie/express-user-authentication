@@ -2,6 +2,16 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 
+// GET /login
+router.get('/login', (req, res, next) => {
+	return res.render('login', {title: 'Log in'})
+});
+
+// Post /login
+router.post('/login', (req, res, next) => {
+	return res.send('Logged In!');
+});
+
 // GET /register
 router.get('/register', (req, res, next) => {
 	return res.render('register', { title: 'Sign Up' });
