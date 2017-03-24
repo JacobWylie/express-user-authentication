@@ -9,6 +9,10 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <p><a href="http://mongoosejs.com/docs/guide.html#methods">Mongoose Methods</a></p>
 <p><a href="https://github.com/expressjs/session">Express Session Module</a></p>
 <p><a href="https://github.com/expressjs/session#compatible-session-stores">A list of session stores for Express</a></p>
+<p><a href="https://github.com/pillarjs/understanding-csrf">Understanding CSRF</a></p>
+<p><a href="https://github.com/expressjs/csurf">csurf Express Middleware</a></p>
+<p><a href="https://docs.stormpath.com/nodejs/express/latest/password_reset.html">Stormpath Express Library Guide</a></p>
+<p><a href="http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/">How to Implement Password Reset in Node.js</a></p>
 
 <h4>Mongo Shell Cheatsheet</h4>
 <ul>
