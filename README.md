@@ -13,6 +13,7 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <p><a href="https://github.com/expressjs/csurf">csurf Express Middleware</a></p>
 <p><a href="https://docs.stormpath.com/nodejs/express/latest/password_reset.html">Stormpath Express Library Guide</a></p>
 <p><a href="http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/">How to Implement Password Reset in Node.js</a></p>
+<p><a href="https://pugjs.org/api/getting-started.html">Pug (Jade) Conditionals</a></p>
 
 <h4>Mongo Shell Cheatsheet</h4>
 <ul>
