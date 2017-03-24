@@ -7,6 +7,8 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <p><a href="http://mongoosejs.com/index.html">Mongoose Web Site</a></p>
 <p><a href="http://mongoosejs.com/docs/guide.html">Mongoose Schemas</a></p>
 <p><a href="http://mongoosejs.com/docs/guide.html#methods">Mongoose Methods</a></p>
+<p><a href="https://github.com/expressjs/session">Express Session Module</a></p>
+<p><a href="https://github.com/expressjs/session#compatible-session-stores">A list of session stores for Express</a></p>
 
 <h4>Mongo Shell Cheatsheet</h4>
 <ul>
@@ -22,4 +24,7 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <ul>
 	<li>Hashing — using a function which takes some piece of information and return a hash that represents that information</li>
 	<li>Salt — randomly generated string that is concatenated with a password</li>
+	<li>Session — Information pertaining to a specific user of a website</li>
+	<li>Cookie — File managed by the web browser that can save information from a website</li>
 </ul>
+
