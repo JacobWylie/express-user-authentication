@@ -2,6 +2,23 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 
+// GET /profile
+router.get('/profile', (req, res, next) => {
+	if (! req.session.userId) {
+		let err = new Error('You are not logged in!');
+		err.status = 403;
+		return next(err);
+	}
+	User.findById(req.session.userId)
+		.exec((error, user) => {
+			if (error) {
+				return next(error);
+			} else {
+				return res.render('profile', {title: 'Profile', name: user.name, favorite: user.favoriteBook});
+			}
+		}); 
+});
+
 // GET /login
 router.get('/login', (req, res, next) => {
 	return res.render('login', {title: 'Log in'})
