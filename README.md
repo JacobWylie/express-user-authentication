@@ -8,7 +8,7 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 <p><a href="http://mongoosejs.com/docs/guide.html">Mongoose Schemas</a></p>
 <p><a href="http://mongoosejs.com/docs/guide.html#methods">Mongoose Methods</a></p>
 
-<h5>Mongo Shell Cheatsheet</h5>
+<h4>Mongo Shell Cheatsheet</h4>
 <ul>
 	<li>show dbs — display the databases</li>
 	<li>use bookworm — specify the database you're going to work with</li>
@@ -16,4 +16,10 @@ Project code to support the [Treehouse](https://teamtreehouse.com) course [User 
 	<li>db.users.find() — display all the documents in the users collection</li>
 	<li>db.users.find().pretty() — nicer format for output documents within the shell</li>
 	<li>db.users.drop() — remove the users collection from the current database</li>
+</ul>
+
+<h4>Terms</h4>
+<ul>
+	<li>Hashing — using a function which takes some piece of information and return a hash that represents that information</li>
+	<li>Salt — randomly generated string that is concatenated with a password</li>
 </ul>
