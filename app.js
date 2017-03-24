@@ -7,7 +7,7 @@ const app = express();
 // Use sessions for tracking logins
 app.use(session({
 	secret: 'treehouse loves you',
-	resave: true;
+	resave: true,
 	saveUninitialized: false
 }));
 
